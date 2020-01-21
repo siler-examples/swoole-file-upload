@@ -1,2 +1,6 @@
-# swoole-file-upload
-File upload example using Swoole
+# File upload
+
+File upload example using Swoole & Ajax.
+
+- `php bin/server.php`
+- `php -S localhost:8000 -t web`

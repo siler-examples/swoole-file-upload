@@ -1,0 +1,11 @@
+version: '3'
+services:
+  php:
+    container_name: swoole_file_upload
+    image: leocavalcante/dwoole:dev
+    volumes:
+      - ./:/app
+    ports:
+      - 3000:3000
+    environment:
+      ENTRY_POINT_FILE: /app/bin/server.php
